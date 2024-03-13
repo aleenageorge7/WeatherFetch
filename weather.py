@@ -1,5 +1,4 @@
-import requests
-import json
+import requests, json
 
 city = input("Enter the city :- ")
 url = f"https://api.weatherapi.com/v1/current.json?key=API_KEY={city}"
